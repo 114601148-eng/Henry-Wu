@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI 學習補給站：用清楚、可實作的方式認識生成式 AI、提示工程與 AI Agent。">
+  <title>AI 學習補給站｜把 AI 學會，也把方法留下來</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="AI 學習補給站首頁">
+      <span class="brand-mark">AI</span><span>學習補給站</span>
+    </a>
+    <nav aria-label="主要導覽">
+      <a href="#learning">學習路線</a><a href="#library">知識卡</a><a href="#about">關於本站</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR PRACTICAL AI NOTEBOOK</p>
+        <h1>把 AI 學會，<br><em>也把方法留下來。</em></h1>
+        <p class="hero-desc">從生成式 AI 的基本概念，到提示工程與 AI Agent。用短篇講義、實作步驟和重點整理，建立自己的 AI 學習地圖。</p>
+        <a class="primary-button" href="#learning">開始探索 <span>↗</span></a>
+      </div>
+      <div class="hero-art" aria-label="AI 學習主視覺">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core">AI<span>LAB</span></div>
+        <span class="float-tag tag-one">PROMPT</span><span class="float-tag tag-two">AGENT</span><span class="float-tag tag-three">IDEAS</span>
+        <span class="spark spark-one">✳</span><span class="spark spark-two">✦</span>
+      </div>
+      <div class="hero-index"><span>01</span> / LEARN BY BUILDING</div>
+    </section>
+
+    <section class="section learning" id="learning">
+      <div class="section-heading">
+        <div><p class="eyebrow">LEARNING PATH</p><h2>循序漸進的學習路線</h2></div>
+        <p>先理解原理，再練習表達，最後讓 AI 替你完成任務。</p>
+      </div>
+      <div class="path-grid">
+        <article class="path-card">
+          <div class="card-top"><span class="number">01</span><span class="card-icon">◉</span></div>
+          <p class="card-label">FOUNDATION</p><h3>認識生成式 AI</h3>
+          <p>理解大型語言模型如何根據上下文產生文字，以及它擅長與不擅長的事情。</p>
+          <a href="#concepts">閱讀重點 <span>→</span></a>
+        </article>
+        <article class="path-card featured">
+          <div class="card-top"><span class="number">02</span><span class="card-icon">⌘</span></div>
+          <p class="card-label">COMMUNICATION</p><h3>提示工程</h3>
+          <p>把模糊需求變成清楚指令，透過角色、背景、限制與輸出格式提升結果品質。</p>
+          <a href="#prompts">閱讀重點 <span>→</span></a>
+        </article>
+        <article class="path-card">
+          <div class="card-top"><span class="number">03</span><span class="card-icon">⌬</span></div>
+          <p class="card-label">AUTOMATION</p><h3>AI Agent 入門</h3>
+          <p>認識工具使用、規劃與反思，讓 AI 不只回答問題，也能分步驟完成任務。</p>
+          <a href="#agents">閱讀重點 <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section knowledge" id="library">
+      <div class="section-heading">
+        <div><p class="eyebrow">KNOWLEDGE CARDS</p><h2>三張知識卡，快速掌握</h2></div>
+        <p>每張卡都包含定義、例子與實作提醒，方便日後持續擴充。</p>
+      </div>
+      <div class="knowledge-list">
+        <article class="knowledge-card" id="concepts">
+          <div class="knowledge-aside"><span>01</span><span class="mini-symbol">✳</span></div>
+          <div class="knowledge-content"><p class="card-label">FOUNDATION / 基礎觀念</p><h3>生成式 AI 是什麼？</h3>
+            <p>生成式 AI 是能依據輸入內容，產生新文字、圖片、音訊或程式碼的人工智慧技術。大型語言模型會根據前文預測接下來合理的 token，因此回答流暢不代表每個事實都正確。</p>
+            <div class="takeaway"><strong>實作提醒</strong><span>把 AI 當成協作工具；重要資訊仍要查證，尤其是日期、數字與來源。</span></div>
+          </div>
+        </article>
+        <article class="knowledge-card" id="prompts">
+          <div class="knowledge-aside"><span>02</span><span class="mini-symbol">⌘</span></div>
+          <div class="knowledge-content"><p class="card-label">COMMUNICATION / 提示工程</p><h3>好提示的四個元素</h3>
+            <p>一個可執行的提示通常包含：<b>角色</b>（希望 AI 扮演誰）、<b>任務</b>（要完成什麼）、<b>背景與限制</b>（已知資訊及不可做的事）、<b>輸出格式</b>（答案要如何呈現）。</p>
+            <div class="prompt-example"><span>範例提示</span>「你是助教。請把以下課堂內容整理成 5 個重點，每點不超過 30 字，並附上一個初學者例子。」</div>
+          </div>
+        </article>
+        <article class="knowledge-card" id="agents">
+          <div class="knowledge-aside"><span>03</span><span class="mini-symbol">⌬</span></div>
+          <div class="knowledge-content"><p class="card-label">AUTOMATION / AI AGENT</p><h3>AI Agent 的工作循環</h3>
+            <p>Agent 會先理解目標，再決定下一步、呼叫工具或執行動作，最後觀察結果並調整。常見方法包含 Tool Use（工具使用）、Planning（規劃）與 Reflection（反思）。</p>
+            <div class="takeaway"><strong>實作提醒</strong><span>先讓 Agent 做一件範圍小、結果容易驗證的事，再逐步增加工具與步驟。</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <p class="eyebrow">THE LEARNING PRINCIPLE</p>
+      <blockquote>「不要只讓 AI 幫你完成一次，<br>要建立讓下一次更容易的規則。」</blockquote>
+      <p>Learn it. Build it. Document it.</p>
+    </section>
+
+    <section class="section about" id="about">
+      <div><p class="eyebrow">ABOUT THIS PROJECT</p><h2>這是一個會持續長大的<br>AI 學習筆記網站。</h2></div>
+      <div class="about-copy"><p>本站以「短篇知識卡」作為內容單位，統一使用相同的標題層級、摘要、說明與實作提醒。未來新增主題時，只要遵循專案根目錄的 <code>AGENTS.md</code>，AI 就能延續既有風格與檔案結構。</p><p class="about-note">本網站為課程作業示範專案，內容以入門教學為主，後續可持續補充案例、練習與參考資料。</p></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#top"><span class="brand-mark">AI</span><span>學習補給站</span></a><span>BUILD A SYSTEM, NOT JUST A PAGE.</span><span>© 2026 AI Study Hub</span></footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>
